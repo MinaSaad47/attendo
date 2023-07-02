@@ -1,0 +1,9 @@
+[submodule "ams-backend"]
+	path = ams-backend
+	url = git@github.com:MinaSaad47/ams-backend.git
+[submodule "ams-frontend"]
+	path = ams-frontend
+	url = git@github.com:MinaSaad47/ams-frontend.git
+[submodule "ams_dashboard"]
+	path = ams_dashboard
+	url = git@github.com:MinaSaad47/ams_dashboard.git
