@@ -1,9 +1,10 @@
 <div style="text-align: center;">
-  <img height="200px" src="images/outlogo.png" alt="Logo">
-  <h1>Attendo</h1>
+  <img align="center" height="200px" src="images/outlogo.png" alt="Logo">
+  <h1 align="center">Attendo</h1>
   <p>Attendance System based on Face Recognition for graduation project (2023)</p>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
+
 
 <div>
   <h2>Features ✨</h2>
@@ -18,7 +19,7 @@
     <li>🌐 Cross-platform</li>
   </ul>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2>Background 📚</h2>
@@ -40,7 +41,7 @@
   <h3>Enhancing Attendance Accuracy and Efficiency in Primary Schools</h3>
   <p>Tsoi et al. (2019) explored the use of a smart attendance system in a primary school setting. The study revealed that the system improved attendance accuracy and reduced the time required for attendance-taking, making it beneficial for educational institutions.</p>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2>Architecture 🏛️</h2>
@@ -86,7 +87,7 @@
     </tr>
   </table>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2>Diagrams 📊</h2>
@@ -106,7 +107,7 @@
   <h3>Database Schema</h3>
   <img src="images/db.png" alt="Database Schema" style="max-width: 100%; display: block; margin: 20px auto;">
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2>DataSets 📊</h2>
@@ -127,7 +128,7 @@
   <p>Description: The Celebrity Dataset consists of images of 10 well-known celebrities from various sources.</p>
   <p>Statistics: 10 images per celebrity, totaling 100 images.</p>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2>Development 🚀</h2>
@@ -171,7 +172,7 @@
 
   
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2 >Screenshots 📸</h2>
@@ -218,7 +219,7 @@
     </tbody>
   </table>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2 style="text-align: center;">Meet the Brilliant Minds Behind the Project 🌟</h2>
@@ -239,7 +240,7 @@
     </div>
   </div>
 </div>
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 
 <div>
   <h2>References 📚</h2>
