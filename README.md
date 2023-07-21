@@ -22,7 +22,7 @@
 </p>
 
 ## Background 📚
-### Smart Attendance System with Face Recognition and QR Codes [1]
+### Smart Attendance System with Face Recognition and QR Codes <a href="#ref-1"> [1] </a>
 A research study by Singh et al. (2018) proposed a smart attendance system that integrated face recognition and QR codes for tracking attendance in a university setting. The system achieved high accuracy and significantly reduced the time required for attendance-taking compared to traditional manual methods.
 
 ### Effectiveness of RFID-Based Smart Attendance System [2]
@@ -223,29 +223,29 @@ where:
 </p>
 
 ## References 📚
-1. Singh, A., Verma, M., Jain, A., & Khan, A. (2018). Smart Attendance System Using Face Recognition. In 2018 4th International Conference on Computing Sciences (pp. 6-10). IEEE.
-2. Sahu, R. P., & Bhatt, V. (2018). Effectiveness of RFID-Based Smart Attendance System in a Manufacturing Company. In 2018 International Conference on Inventive Research in Computing Applications (pp. 582-586). IEEE.
-3. Khan, M. S., & Ahmed, M. U. (2019). Impact of Smart Attendance System on Student Attendance and Academic Performance. In Proceedings of the 2nd International Conference on Intelligent Technologies and Applications (ICITA 2019) (pp. 27-31).
-4. Han, H., Otto, C., Jain, A., & Bhanu, B. (2019). Age invariant face recognition: A survey. Pattern Recognition, 81, 15-39.
-5. Alshehri, M., & Drews, P. (2020). Biometric-based Smart Attendance System in Educational Institutions. Journal of Physics: Conference Series, 1475(4), 042045.
-6. Tsoi, Y. K., Siu, W. C., Zhang, Y., Zhang, X., Chen, S., & Wong, K. C. (2019). Enhancing Attendance Accuracy and Efficiency in Primary Schools Using a Smart Attendance System. In Proceedings of the 2019 7th International Conference on Information Technology: IoT and Smart City (ICIT 2019) (pp. 72-76).
-7. Flutter. (n.d.). Retrieved from https://flutter.dev/
-8. TensorFlow. (n.d.). Retrieved from https://www.tensorflow.org/
-9. Keras. (n.d.). Retrieved from https://keras.io/
-10. OpenCV. (n.d.). Retrieved from https://opencv.org/
-11. Sklearn. (n.d.). Retrieved from https://scikit-learn.org/
-12. ReactJS. (n.d.). Retrieved from https://reactjs.org/
-13. Node.js. (n.d.). Retrieved from https://nodejs.org/
-14. Express.js. (n.d.). Retrieved from https://expressjs.com/
-15. PostgreSQL. (n.d.). Retrieved from https://www.postgresql.org/
-16. Docker. (n.d.). Retrieved from https://www.docker.com/
-17. Docker Compose. (n.d.). Retrieved from https://docs.docker.com/compose/
-18. EfficientNet. (n.d.). Retrieved from https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/
-19. Schroff, F., Kalenichenko, D., & Philbin, J. (2015). FaceNet: A Unified Embedding for Face Recognition and Clustering. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015) (pp. 815-823).
-20. King, D. E. (2009). Dlib-ml: A Machine Learning Toolkit. Journal of Machine Learning Research, 10, 1755-1758.
-21. Sun, Y., Wang, X., & Tang, X. (2015). Deep Learning Face Representation from Predicting 10,000 Classes. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015) (pp. 1891-1898).
-22. Hu, J., Shen, L., & Sun, G. (2018). Squeeze-and-excitation networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2018) (pp. 7132-7141).
-23. Mahajan, D., Girshick, R., Ramanan, D., & He, K. (2018). Exploring the Limits of Weakly Supervised Pretraining. In Proceedings of the European Conference on Computer Vision (ECCV 2018) (pp. 181-196).
+##### [1] <a name="ref-1" > Singh, A., Verma, M., Jain, A., & Khan, A. (2018). Smart Attendance System Using Face Recognition. In 2018 4th International Conference on Computing Sciences (pp. 6-10). IEEE.</a>
+##### [2] <a name="ref-2" >Sahu, R. P., & Bhatt, V. (2018). Effectiveness of RFID-Based Smart Attendance System in a Manufacturing Company. In 2018 International Conference on Inventive Research in Computing Applications (pp. 582-586). IEEE.</a>
+##### [3] <a name="ref-3" >Khan, M. S., & Ahmed, M. U. (2019). Impact of Smart Attendance System on Student Attendance and Academic Performance. In Proceedings of the 2nd International Conference on Intelligent Technologies and Applications (ICITA 2019) (pp. 27-31).</a>
+##### [4] <a name="ref-4" >Han, H., Otto, C., Jain, A., & Bhanu, B. (2019). Age invariant face recognition: A survey. Pattern Recognition, 81, 15-39.</a>
+##### [5] <a name="ref-5" >Alshehri, M., & Drews, P. (2020). Biometric-based Smart Attendance System in Educational Institutions. Journal of Physics: Conference Series, 1475(4), 042045.</a>
+##### [6] <a name="ref-6" >Tsoi, Y. K., Siu, W. C., Zhang, Y., Zhang, X., Chen, S., & Wong, K. C. (2019). Enhancing Attendance Accuracy and Efficiency in Primary Schools Using a Smart Attendance System. In Proceedings of the 2019 7th International Conference on Information Technology: IoT and Smart City (ICIT 2019) (pp. 72-76).</a>
+##### [7] <a name="ref-7" href="https://flutter.dev/">Flutter. </a>
+##### [8] <a name="ref-8" href="https://www.tensorflow.org/">TensorFlow. </a>
+##### [9] <a name="ref-9" href="https://keras.io/">Keras. </a>
+##### [10] <a name="ref-10" href="https://opencv.org/">OpenCV. </a>
+##### [11] <a name="ref-11" href="https://scikit-learn.org/">Sklearn. </a>
+##### [12] <a name="ref-12" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">ReactJS. (n.d.). Retrieved from https://reactjs.org/ </a> 
+##### [13] <a name="ref-13" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Node.js. (n.d.). Retrieved from https://nodejs.org/ </a>
+##### [14] <a name="ref-14" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Express.js. (n.d.). Retrieved from https://expressjs.com/ </a>
+##### [15] <a name="ref-15" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">PostgreSQL. (n.d.). Retrieved from https://www.postgresql.org/ </a> 
+##### [16] <a name="ref-16" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Docker. (n.d.). Retrieved from https://www.docker.com/ </a>
+##### [17] <a name="ref-17" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Docker Compose. (n.d.). Retrieved from https://docs.docker.com/compose/ </a>
+##### [18] <a name="ref-18" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">EfficientNet. (n.d.). Retrieved from https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/ </a>
+##### [19] <a name="ref-19" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Schroff, F., Kalenichenko, D., & Philbin, J. (2015). FaceNet: A Unified Embedding for Face Recognition and Clustering. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015) (pp. 815-823). </a>
+##### [20] <a name="ref-20" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">King, D. E. (2009). Dlib-ml: A Machine Learning Toolkit. Journal of Machine Learning Research, 10, 1755-1758. </a>
+##### [21] <a name="ref-21" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Sun, Y., Wang, X., & Tang, X. (2015). Deep Learning Face Representation from Predicting 10,000 Classes. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015) (pp. 1891-1898). </a>
+##### [22] <a name="ref-22" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Hu, J., Shen, L., & Sun, G. (2018). Squeeze-and-excitation networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2018) (pp. 7132-7141). </a>
+##### [23] <a name="ref-23" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Mahajan, D., Girshick, R., Ramanan, D., & He, K. (2018). Exploring the Limits of Weakly Supervised Pretraining. In Proceedings of the European Conference on Computer Vision (ECCV 2018) (pp. 181-196). </a>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
