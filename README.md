@@ -1,13 +1,7 @@
 # Attendo
 
-<div style="display: flex; align-items: center;">
-  <div style="max-width: 300px; margin-right: 20px;">
-    <img src="images/outlogo.svg" alt="Image">
-  </div>
-  <div style="text-align: right;">
-    <p>Attendance System based on Face Recogniton for graduation project (2023)</p>
-  </div>
-</div>
+<img height="200px" src="images/outlogo.svg" alt="Logo">
+Attendance System based on Face Recogniton for graduation project (2023)
 
 ## Screenshots
 
