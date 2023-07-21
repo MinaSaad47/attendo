@@ -3,7 +3,7 @@
   <h1>Attendo</h1>
   <p>Attendance System based on Face Recognition for graduation project (2023)</p>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>Features ✨</h2>
@@ -18,7 +18,7 @@
     <li>🌐 Cross-platform</li>
   </ul>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>Background 📚</h2>
@@ -40,7 +40,7 @@
   <h3>Enhancing Attendance Accuracy and Efficiency in Primary Schools</h3>
   <p>Tsoi et al. (2019) explored the use of a smart attendance system in a primary school setting. The study revealed that the system improved attendance accuracy and reduced the time required for attendance-taking, making it beneficial for educational institutions.</p>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>Architecture 🏛️</h2>
@@ -86,7 +86,7 @@
     </tr>
   </table>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>Diagrams 📊</h2>
@@ -106,7 +106,7 @@
   <h3>Database Schema</h3>
   <img src="images/db.png" alt="Database Schema" style="max-width: 100%; display: block; margin: 20px auto;">
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>DataSets 📊</h2>
@@ -127,7 +127,7 @@
   <p>Description: The Celebrity Dataset consists of images of 10 well-known celebrities from various sources.</p>
   <p>Statistics: 10 images per celebrity, totaling 100 images.</p>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>Development 🚀</h2>
@@ -171,7 +171,7 @@
 
   
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2 >Screenshots 📸</h2>
@@ -218,7 +218,7 @@
     </tbody>
   </table>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2 style="text-align: center;">Meet the Brilliant Minds Behind the Project 🌟</h2>
@@ -239,7 +239,7 @@
     </div>
   </div>
 </div>
-<div style="background-image: url('https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png'); background-size: 100% 100%; height: 15px;"></div>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <div>
   <h2>References 📚</h2>
@@ -251,16 +251,16 @@
       [2] <a name="ref-2">Sahu, S. K., & Bhatt, R. (2018). An RFID-Based Smart Attendance System in Manufacturing Companies. International Journal of Innovative Research in Science, Engineering, and Technology, 7(4), 5133-5137.</a>
     </li>
     <li>
-      [3] Khan, M. F., & Ahmed, M. K. (2019). Impact of Smart Attendance System on Student Attendance and Academic Performance. International Journal of Research in Engineering, Science and Management, 2(3), 90-95.
+      [3] <a name="ref-2"> Khan, M. F., & Ahmed, M. K. (2019). Impact of Smart Attendance System on Student Attendance and Academic Performance. International Journal of Research in Engineering, Science and Management, 2(3), 90-95.</a>
     </li>
     <li>
-      [4] Han, X., Li, B., Li, T., & Jiang, G. (2019). A Smart Attendance System using Face Recognition and Deep Learning Techniques. 2019 International Conference on Artificial Intelligence and Computer Science (AICS).
+      [4] <a name="ref-2"> Han, X., Li, B., Li, T., & Jiang, G. (2019). A Smart Attendance System using Face Recognition and Deep Learning Techniques. 2019 International Conference on Artificial Intelligence and Computer Science (AICS).</a>
     </li>
     <li>
-      [5] Alshehri, S., & Drews, P. (2020). Evaluation of Biometric-Based Smart Attendance System in Educational Institutions. International Journal of Computer Applications, 174(34), 10-14.
+      [5] <a name="ref-2"> Alshehri, S., & Drews, P. (2020). Evaluation of Biometric-Based Smart Attendance System in Educational Institutions. International Journal of Computer Applications, 174(34), 10-14.</a>
     </li>
     <li>
-      [6] Tsoi, K. H., Chan, C. S., & Au, O. K. (2019). Smart Attendance System in Primary Schools. International Journal of Computer Applications, 182(35), 42-47.
+      [6] <a name="ref-2"> soi, K. H., Chan, C. S., & Au, O. K. (2019). Smart Attendance System in Primary Schools. International Journal of Computer Applications, 182(35), 42-47.</a>
     </li>
   </ul>
 </div>
