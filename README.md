@@ -25,19 +25,19 @@
 ### Smart Attendance System with Face Recognition and QR Codes <a href="#ref-1"> [1] </a>
 A research study by Singh et al. (2018) proposed a smart attendance system that integrated face recognition and QR codes for tracking attendance in a university setting. The system achieved high accuracy and significantly reduced the time required for attendance-taking compared to traditional manual methods.
 
-### Effectiveness of RFID-Based Smart Attendance System [2]
+### Effectiveness of RFID-Based Smart Attendance System <a href="#ref-2"> [2] </a>
 Sahu and Bhatt (2018) examined the effectiveness of an RFID-based smart attendance system in a manufacturing company. The study found that the system led to a remarkable reduction in absenteeism and improved attendance tracking accuracy and efficiency.
 
-### Impact of Smart Attendance System on Student Attendance and Academic Performance [3]
+### Impact of Smart Attendance System on Student Attendance and Academic Performance <a href="#ref-3"> [3] </a>
 A study by Khan and Ahmed (2019) investigated the impact of a smart attendance system on student attendance and academic performance. The findings revealed that the system positively influenced attendance rates, particularly among previously absent or tardy students. Moreover, it correlated with improved academic performance, with students attending more classes achieving higher grades.
 
-### Smart Attendance System with Face Recognition and Deep Learning [4]
+### Smart Attendance System with Face Recognition and Deep Learning <a href="#ref-4"> [4] </a>
 Han et al. (2019) developed a smart attendance system using face recognition and deep learning techniques. The system exhibited superior accuracy even with large datasets and challenging lighting conditions, making it a robust solution for attendance tracking.
 
-### Biometric-Based Smart Attendance System in Educational Institutions [5]
+### Biometric-Based Smart Attendance System in Educational Institutions <a href="#ref-5"> [5] </a>
 Alshehri and Drews (2020) conducted a study comparing a biometric-based smart attendance system with traditional attendance tracking methods in educational institutions. The results demonstrated that the smart system outperformed conventional methods, offering better accuracy, efficiency, and user satisfaction among students and teachers.
 
-### Enhancing Attendance Accuracy and Efficiency in Primary Schools [6]
+### Enhancing Attendance Accuracy and Efficiency in Primary Schools <a href="#ref-6"> [6] </a>
 Tsoi et al. (2019) explored the use of a smart attendance system in a primary school setting. The study revealed that the system improved attendance accuracy and reduced the time required for attendance-taking, making it beneficial for educational institutions.
 
 <p align="center">
@@ -45,8 +45,11 @@ Tsoi et al. (2019) explored the use of a smart attendance system in a primary sc
 </p>
 
 ## Architecture 🏛️
+
 ![Architecture](images/archi.png)
-The smart attendance system consists of various modules, each playing a crucial role in its operation. Here are the key modules and their functions:
+
+
+**The smart attendance system consists of various modules, each playing a crucial role in its operation. Here are the key modules and their functions:**
 
 | Module               | Description                                                                                                                                                   |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -54,9 +57,9 @@ The smart attendance system consists of various modules, each playing a crucial 
 | Web Server Module    | A container that hosts the backend server, handling incoming requests from clients (such as web browsers) and serving responses over the internet. It manages communication protocols and processes requests.                         |
 | Application API Module | A software component that handles incoming requests from clients and serves responses over the internet. It manages communication protocols and processes requests.                                        |
 | Image Store Module   | A file system module for managing and serving the system's images, facilitating efficient image storage and retrieval.                                       |
-| PostgreSQL Database Module | A container Database Management System that stores information about the system resources (e.g., attendees, instructors, subjects) in records in a table format.                   |
+| PostgreSQL Database Module<a href="#ref-8"> [8] </a> | A container Database Management System that stores information about the system resources (e.g., attendees, instructors, subjects) in records in a table format.                   |
 | Front End Application | Software used by system users (attendees, instructors, and admins) to interact with the system through an easy-to-use interface, facilitating seamless user experience.            |
-| Mobile Application   | A mobile application built using Flutter [1] that enables taking attendance using face recognition and QR code technologies. It utilizes the device's camera to capture and analyze facial features or scan QR codes for identification purposes.        |
+| Mobile Application   | A mobile application built using Flutter <a href="#ref-7"> [7] </a> that enables taking attendance using face recognition and QR code technologies. It utilizes the device's camera to capture and analyze facial features or scan QR codes for identification purposes.        |
 | Dashboard Application | A GUI that serves as an administrative tool for managing the system resources. It provides functionalities for adding new users, updating existing data, deleting records, and performing other administrative tasks through a user-friendly interface.  |
 
 <p align="center">
@@ -85,11 +88,11 @@ The smart attendance system consists of various modules, each playing a crucial 
 </p>
 
 ## DataSets 📊
-- **LFW Dataset**
+- **LFW Dataset<a href="#ref-15"> [15] </a>**
   - Description: Labeled Faces in the Wild (LFW) is a popular benchmark dataset in face recognition research.
   - Statistics: Contains around 13,000 images of 5,749 unique individuals.
 
-- **Microsoft Artificial Dataset**
+- **Microsoft Artificial Dataset <a href="#ref-16"> [16] </a>**
   - Description: The Microsoft Artificial Dataset comprises a significant number of artificially generated face images.
   - Statistics: The DigiFace1M subset of the dataset contains 1 million synthetic face images.
 
@@ -107,8 +110,8 @@ The smart attendance system consists of various modules, each playing a crucial 
 
 ## Development 🚀
 
-### - Classification Model 🏆
-In our experiment, we explored the performance of four different classification models: EfficientNetB0, EfficientNetB2, VGGFace [5], and ResNet50 [6]. We evaluated these models on three distinct datasets: LFW, Celebrity, and Personal. Each dataset provided a unique set of challenges and variations in facial images.
+###  Classification Model 🏆
+In our experiment, we explored the performance of four different classification models: EfficientNetB0 <a href="#ref-10"> [10] </a>, EfficientNetB2, VGGFace <a href="#ref-13"> [13] </a>, and ResNet50 <a href="#ref-14"> [14] </a>. We evaluated these models on three distinct datasets: LFW , Celebrity, and Personal. Each dataset provided a unique set of challenges and variations in facial images.
 
 🔍 We systematically combined each model with every dataset to observe the resulting accuracy and loss. By examining the combination of models with different datasets, we aimed to understand the strengths and weaknesses of each model in different contexts.
 
@@ -127,7 +130,7 @@ In our experiment, we explored the performance of four different classification 
 **Test Loss for EfficientNet-B2 on the three datasets:**
 ![Test Loss](images/loss.png)
 
-### - Embedding 🧠
+###  Embedding 🧠
 🎭 As another powerful technique, we delved into face embedding—a process that transforms a face image into a high-dimensional feature representation. This representation, known as an embedding, captures the unique characteristics of a face and facilitates measuring similarities or distances between faces.
 
 🔍 In our experiments, we harnessed the potential of a Siamese network architecture combined with the triplet loss function. The Siamese network comprises three identical subnetworks, sharing the same weights. Taking three face images as input, it produces their corresponding embeddings. The triplet loss function then trains the network by minimizing the distance between an anchor face embedding and a positive (same identity) face embedding, while maximizing the distance between the anchor face embedding and a negative (different identity) face embedding.
@@ -145,9 +148,9 @@ where:
 
 😕 The naive approach in face recognition involves randomly selecting triplets for training the embedding model without considering the difficulty of the samples. In this case, the model learns from triplets that may not provide sufficient discriminative information, leading to suboptimal performance.
 
-🚀 To overcome this challenge, we embraced the online triplet [19] approach, dynamically selecting hard triplets during training. A hard triplet consists of an anchor, a positive (same identity) sample, and a negative (different identity) sample that are challenging to distinguish. By focusing on hard triplets, the model is pushed to learn more robust and discriminative embeddings.
+🚀 To overcome this challenge, we embraced the online triplet approach, dynamically selecting hard triplets during training. A hard triplet consists of an anchor, a positive (same identity) sample, and a negative (different identity) sample that are challenging to distinguish. By focusing on hard triplets, the model is pushed to learn more robust and discriminative embeddings.
 
-🏆 As our experiments progressed, we encountered difficulties in achieving optimal performance solely with our custom-built network architecture. To overcome this, we decided to harness the power of transfer learning and adopted the FaceNet pretrained model. FaceNet is a widely recognized face recognition model trained on a large-scale dataset, demonstrating outstanding performance in embedding faces into a high-dimensional space. By leveraging the FaceNet model, we achieved higher accuracy and benefited from its robust features.
+🏆 As our experiments progressed, we encountered difficulties in achieving optimal performance solely with our custom-built network architecture. To overcome this, we decided to harness the power of transfer learning and adopted the FaceNet<a href="#ref-18"> [18] </a> pretrained model. FaceNet is a widely recognized face recognition model trained on a large-scale dataset, demonstrating outstanding performance in embedding faces into a high-dimensional space. By leveraging the FaceNet model, we achieved higher accuracy and benefited from its robust features.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
@@ -155,10 +158,11 @@ where:
 
 ## Screenshots 📸
 
-### API Docs
+<h3 align="center"> API Docs</h3>
+
 ![API Docs](images/api-docs.png)
 
-### Dashboard
+<h3 align="center"> Dashboard</h3>
 <table>
   <tbody>
     <tr>
@@ -173,7 +177,7 @@ where:
   </tbody>
 </table>
 
-### Mobile Application
+<h3 align="center">  Mobile Application</h3>
 <table>
   <tbody>
     <tr>
@@ -201,52 +205,41 @@ where:
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 </p>
 
-## Meet the Brilliant Minds Behind the Project 🌟
-<div style="display: flex; justify-content: space-around; margin: 50px 0;">
-  <div style="text-align: center;">
-    <a href="https://www.github.com/minasaad47">
-      <img src="images/author1.png" alt="Author 1" width="150px" height="150px" style="border-radius: 50%;">
-      <br>
-      <strong>@minasaad47</strong>
-    </a>
-  </div>
-  <div style="text-align: center;">
-    <a href="https://www.github.com/mina329">
-      <img src="images/author2.png" alt="Author 2" width="150px" height="150px" style="border-radius: 50%;">
-      <br>
-      <strong>@mina329</strong>
-    </a>
-  </div>
+<h2 align="center">Meet the Brilliant Minds Behind the Project 🌟</h2> 
+<div style="display: flex; justify-content: center; margin: 50px 0;">
+  <table align = "center">
+    <tr>
+      <td align="center"><a href="https://github.com/mina329"><img src="images/author2.png" width="150px;" alt="Mina Emil Image"/><br/><sub><b>Mina Emil</b></sub></a><br/></td>
+      <td align="center"><a href="https://github.com/minasaad47"><img src="images/author1.png" width="150px;" alt="Mina Saad Image"/><br/><sub><b>Mina Saad</b></sub></a><br/></td>
+    </tr>
+  </table>
+</div>
+
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 </p>
 
 ## References 📚
-##### [1] <a name="ref-1" > Singh, A., Verma, M., Jain, A., & Khan, A. (2018). Smart Attendance System Using Face Recognition. In 2018 4th International Conference on Computing Sciences (pp. 6-10). IEEE.</a>
-##### [2] <a name="ref-2" >Sahu, R. P., & Bhatt, V. (2018). Effectiveness of RFID-Based Smart Attendance System in a Manufacturing Company. In 2018 International Conference on Inventive Research in Computing Applications (pp. 582-586). IEEE.</a>
-##### [3] <a name="ref-3" >Khan, M. S., & Ahmed, M. U. (2019). Impact of Smart Attendance System on Student Attendance and Academic Performance. In Proceedings of the 2nd International Conference on Intelligent Technologies and Applications (ICITA 2019) (pp. 27-31).</a>
-##### [4] <a name="ref-4" >Han, H., Otto, C., Jain, A., & Bhanu, B. (2019). Age invariant face recognition: A survey. Pattern Recognition, 81, 15-39.</a>
-##### [5] <a name="ref-5" >Alshehri, M., & Drews, P. (2020). Biometric-based Smart Attendance System in Educational Institutions. Journal of Physics: Conference Series, 1475(4), 042045.</a>
-##### [6] <a name="ref-6" >Tsoi, Y. K., Siu, W. C., Zhang, Y., Zhang, X., Chen, S., & Wong, K. C. (2019). Enhancing Attendance Accuracy and Efficiency in Primary Schools Using a Smart Attendance System. In Proceedings of the 2019 7th International Conference on Information Technology: IoT and Smart City (ICIT 2019) (pp. 72-76).</a>
+##### [1] <a name="ref-1" href=""> Singh, A., Verma, M., Jain, A., & Khan, A. (2018). Smart Attendance System Using Face Recognition. In 2018 4th International Conference on Computing Sciences (pp. 6-10). IEEE.</a>
+##### [2] <a name="ref-2" href="" >Sahu, R. P., & Bhatt, V. (2018). Effectiveness of RFID-Based Smart Attendance System in a Manufacturing Company. In 2018 International Conference on Inventive Research in Computing Applications (pp. 582-586). IEEE.</a>
+##### [3] <a name="ref-3" href="">Khan, M. S., & Ahmed, M. U. (2019). Impact of Smart Attendance System on Student Attendance and Academic Performance. In Proceedings of the 2nd International Conference on Intelligent Technologies and Applications (ICITA 2019) (pp. 27-31).</a>
+##### [4] <a name="ref-4" href="">Han, H., Otto, C., Jain, A., & Bhanu, B. (2019). Age invariant face recognition: A survey. Pattern Recognition, 81, 15-39.</a>
+##### [5] <a name="ref-5" href="">Alshehri, M., & Drews, P. (2020). Biometric-based Smart Attendance System in Educational Institutions. Journal of Physics: Conference Series, 1475(4), 042045.</a>
+##### [6] <a name="ref-6" href="">Tsoi, Y. K., Siu, W. C., Zhang, Y., Zhang, X., Chen, S., & Wong, K. C. (2019). Enhancing Attendance Accuracy and Efficiency in Primary Schools Using a Smart Attendance System. In Proceedings of the 2019 7th International Conference on Information Technology: IoT and Smart City (ICIT 2019) (pp. 72-76).</a>
 ##### [7] <a name="ref-7" href="https://flutter.dev/">Flutter. </a>
-##### [8] <a name="ref-8" href="https://www.tensorflow.org/">TensorFlow. </a>
-##### [9] <a name="ref-9" href="https://keras.io/">Keras. </a>
-##### [10] <a name="ref-10" href="https://opencv.org/">OpenCV. </a>
-##### [11] <a name="ref-11" href="https://scikit-learn.org/">Sklearn. </a>
-##### [12] <a name="ref-12" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">ReactJS. (n.d.). Retrieved from https://reactjs.org/ </a> 
-##### [13] <a name="ref-13" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Node.js. (n.d.). Retrieved from https://nodejs.org/ </a>
-##### [14] <a name="ref-14" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Express.js. (n.d.). Retrieved from https://expressjs.com/ </a>
-##### [15] <a name="ref-15" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">PostgreSQL. (n.d.). Retrieved from https://www.postgresql.org/ </a> 
-##### [16] <a name="ref-16" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Docker. (n.d.). Retrieved from https://www.docker.com/ </a>
-##### [17] <a name="ref-17" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Docker Compose. (n.d.). Retrieved from https://docs.docker.com/compose/ </a>
-##### [18] <a name="ref-18" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">EfficientNet. (n.d.). Retrieved from https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/ </a>
-##### [19] <a name="ref-19" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Schroff, F., Kalenichenko, D., & Philbin, J. (2015). FaceNet: A Unified Embedding for Face Recognition and Clustering. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015) (pp. 815-823). </a>
-##### [20] <a name="ref-20" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">King, D. E. (2009). Dlib-ml: A Machine Learning Toolkit. Journal of Machine Learning Research, 10, 1755-1758. </a>
-##### [21] <a name="ref-21" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Sun, Y., Wang, X., & Tang, X. (2015). Deep Learning Face Representation from Predicting 10,000 Classes. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2015) (pp. 1891-1898). </a>
-##### [22] <a name="ref-22" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Hu, J., Shen, L., & Sun, G. (2018). Squeeze-and-excitation networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2018) (pp. 7132-7141). </a>
-##### [23] <a name="ref-23" href="https://dl.acm.org/doi/abs/10.1145/2647868.2654970">Mahajan, D., Girshick, R., Ramanan, D., & He, K. (2018). Exploring the Limits of Weakly Supervised Pretraining. In Proceedings of the European Conference on Computer Vision (ECCV 2018) (pp. 181-196). </a>
-
+##### [8] <a name="ref-8" href="https://www.postgresql.org/">PostgreSQL.</a> 
+##### [9] <a name="ref-9" href="https://www.docker.com/">Docker. </a>
+##### [10] <a name="ref-10" href="https://proceedings.mlr.press/v97/tan19a.html">Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. Proceedings of the 36th International Conference on Machine Learning (ICML), 97, 6105-6114 .  </a>
+##### [11] <a name="ref-11" href=" https://doc.rust-lang.org/">Rust.  </a>
+##### [12] <a name="ref-12" href="https://github.com/tokio-rs/axum">Axum Framework.  </a>
+##### [13] <a name="ref-13" href="http://www.robots.ox.ac.uk/~vgg/publications/2015/Parkhi15/parkhi15.pdf">VGGFace: Parkhi, O. M., Vedaldi, A., & Zisserman, A. (2015). Deep Face Recognition. Proceedings of the British Machine Vision Conference (BMVC), 1-12  </a>
+##### [14] <a name="ref-14" href="https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html">RESNET-50: He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep Residual Learning for Image Recognition. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 770-778.  </a>
+##### [15] <a name="ref-15" href="http://vis-www.cs.umass.edu/lfw/">Huang, G. B., Ramesh, M., Berg, T., & Learned-Miller, E. (2007). Labeled Faces in the Wild: A Database for Studying Face Recognition in Unconstrained Environments. University of Massachusetts, Amherst, Technical Report 07-49  </a>
+##### [16] <a name="ref-16" href="https://github.com/microsoft/DigiFace1M">Microsoft Research. Microsoft Artificial Intelligence: Microsoft AI's artificial faces.   </a>
+##### [17] <a name="ref-17" href="https://pytorch.org/">PyTorch. (2021). PyTorch: An open-source machine learning framework.  </a>
+##### [18] <a name="ref-18" href="https://arxiv.org/abs/1503.03832 ">Schroff, F., Kalenichenko, D., & Philbin, J. (2015). FaceNet: A Unified Embedding for Face Recognition and Clustering. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 815-823.   </a>
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
 </p>
