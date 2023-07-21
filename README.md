@@ -1,3 +1,3 @@
-# Smart Attendance System
+# Attendance Management System
 
-Our 2023 graduation project
+2023 graduation project
