@@ -1,11 +1,19 @@
-# Attendance Management System
+# Attendo
+
+<div style="display: flex; align-items: center;">
+  <div style="max-width: 300px; margin-right: 20px;">
+    <img src="images/outlogo.svg" alt="Image">
+  </div>
+  <div style="text-align: right;">
+    <p>Attendance System based on Face Recogniton for graduation project (2023)</p>
+  </div>
+</div>
 
 ## Screenshots
 
 <h2 align="center">API Docs</h2>
 
 <img width="1000px" src="images/api-docs.png" alt="API Image">
-
 
 <h2 align="center">Dashboard</h2>
 
