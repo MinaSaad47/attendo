@@ -7,3 +7,7 @@
 [submodule "ams_dashboard"]
 	path = ams_dashboard
 	url = git@github.com:MinaSaad47/ams_dashboard.git
+[submodule "ams_models"]
+	path = ams_models
+	url = git@github.com:Mina329/face-recognition-classification-models.git
+
