@@ -200,6 +200,16 @@ where:
     </tr>
   </tbody>
 </table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
+</p>
+
+## Demo 🚀
+
+
+
+https://github.com/Mina329/attendo/assets/96777964/afce634c-e0da-4c6e-a15a-e4211aee79d6
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------" style="width: 100%; height: auto;">
